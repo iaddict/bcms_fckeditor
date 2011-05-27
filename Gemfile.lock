@@ -5,7 +5,7 @@ PATH
       bcms_fckeditor
       browsercms (>= 3.3.0)
       mysql
-      rails (= 3.0.3)
+      rails (>= 3.0.3)
 
 GEM
   remote: http://rubygems.org/
