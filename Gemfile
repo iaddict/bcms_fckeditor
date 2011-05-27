@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.3'
+gem 'rails', '>=3.0.3'
 gem "browsercms", '>=3.3.0'
 gem "jeweler", :group => :development
 
