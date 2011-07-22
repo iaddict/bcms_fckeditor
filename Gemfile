@@ -12,4 +12,4 @@ end
 gem "mysql"
 
 # Load this module as a gem, so that engines and other gem requirements work.
-gem 'bcms_fckeditor', :path=>"."
+#gem 'bcms_fckeditor', :path=>"."

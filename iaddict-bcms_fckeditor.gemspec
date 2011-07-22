@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{iaddict-bcms_fckeditor}
-  s.version = "1.1.2"
+  s.version = "1.1.5"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["BrowserMedia"]
@@ -356,7 +356,6 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<rails>, [">= 3.0.7"])
       s.add_runtime_dependency(%q<browsercms>, [">= 3.3.0"])
       s.add_runtime_dependency(%q<mysql>, [">= 0"])
-      s.add_runtime_dependency(%q<bcms_fckeditor>, [">= 0"])
       s.add_development_dependency(%q<jeweler>, [">= 0"])
       s.add_development_dependency(%q<sqlite3-ruby>, [">= 0"])
     else
@@ -364,7 +363,6 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<rails>, [">= 3.0.7"])
       s.add_dependency(%q<browsercms>, [">= 3.3.0"])
       s.add_dependency(%q<mysql>, [">= 0"])
-      s.add_dependency(%q<bcms_fckeditor>, [">= 0"])
       s.add_dependency(%q<jeweler>, [">= 0"])
       s.add_dependency(%q<sqlite3-ruby>, [">= 0"])
     end
@@ -373,7 +371,6 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<rails>, [">= 3.0.7"])
     s.add_dependency(%q<browsercms>, [">= 3.3.0"])
     s.add_dependency(%q<mysql>, [">= 0"])
-    s.add_dependency(%q<bcms_fckeditor>, [">= 0"])
     s.add_dependency(%q<jeweler>, [">= 0"])
     s.add_dependency(%q<sqlite3-ruby>, [">= 0"])
   end

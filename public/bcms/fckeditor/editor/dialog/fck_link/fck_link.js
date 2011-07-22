@@ -198,10 +198,10 @@ oParser.ParseEMailUri = function( sUrl )
 		if ( aMatch )
 		{
 			// The link is encoded
-			oEMailInfo.Address = eval( aMatch[1] ) ;
-			if ( aMatch[2] )
+			oEMailInfo.Address = eval( aMatch[2] ) ;
+			if ( aMatch[3] )
 			{
-				var oEMailParams = oParser.ParseEMailParams( aMatch[2] ) ;
+				var oEMailParams = oParser.ParseEMailParams( aMatch[3] ) ;
 				oEMailInfo.Subject = oEMailParams.Subject ;
 				oEMailInfo.Body = oEMailParams.Body ;
 			}
