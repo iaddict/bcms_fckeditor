@@ -4,7 +4,7 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{bcms_fckeditor}
+  s.name = %q{iaddict-bcms_fckeditor}
   s.version = "1.1.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
@@ -342,7 +342,7 @@ Gem::Specification.new do |s|
     "public/bcms/fckeditor/fcktemplates.xml",
     "public/bcms_config/fckeditor/fckstyles.xml"
   ]
-  s.homepage = %q{http://github.com/browsermedia/bcms_fckeditor}
+  s.homepage = %q{http://github.com/iaddict/bcms_fckeditor}
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{bcms_fckeditor}
   s.rubygems_version = %q{1.6.2}
